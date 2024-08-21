@@ -25,3 +25,16 @@ Get file from Internet
 -----------------------
 !wget https://x.x/input.txt
 
+
+#Data structure :
+----------------
+
+set
+--------
+set() method is used to convert any  iterable to a sequence of iterable elements with distinct elements , called Set
+Examples :
+list_numbers = [1, 2, 3, 4, 2, 5]
+# create set from list
+numbers_set = set(list_numbers)
+print(numbers_set)
+# Output: {1, 2, 3, 4, 5}
