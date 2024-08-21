@@ -38,3 +38,15 @@ list_numbers = [1, 2, 3, 4, 2, 5]
 numbers_set = set(list_numbers)
 print(numbers_set)
 # Output: {1, 2, 3, 4, 5}
+
+
+
+String
+----------
+Concaténation élément d'une liste / concat of list member to a string
+-----------------------------------------------------------------------
+''.join([itos[i] for i in l]
+print(''.join(chars))
+
+with lambda :
+decode = lambda l: ''.join([itos[i] for i in l]) #decoder : take a list of integer, output a string
