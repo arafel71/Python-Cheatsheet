@@ -50,3 +50,10 @@ print(''.join(chars))
 
 with lambda :
 decode = lambda l: ''.join([itos[i] for i in l]) #decoder : take a list of integer, output a string
+
+
+
+Enumération d'une liste de caractères avec index :
+--------------------------------------------------
+stoi = {ch:i for i,ch in enumerate(chars)}
+itos = {i:ch for i,ch in enumerate(chars)}
