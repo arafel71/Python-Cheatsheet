@@ -52,6 +52,29 @@ with lambda :
 decode = lambda l: ''.join([itos[i] for i in l]) #decoder : take a list of integer, output a string
 
 
+Numpy vstack
+----------------
+Stack arrays in sequence vertically (row wise).
+This is equivalent to concatenation along the first axis after 1-D arrays of shape (N,) have been reshaped to (1,N). Rebuilds arrays divided by vsplit.
+
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+np.vstack((a,b))
+array([[1, 2, 3],
+       [4, 5, 6]])
+
+a = np.array([[1], [2], [3]])
+b = np.array([[4], [5], [6]])
+np.vstack((a,b))
+array([[1],
+       [2],
+       [3],
+       [4],
+       [5],
+       [6]])
+
+       
+
 
 Enumération d'une liste de caractères avec index :
 --------------------------------------------------
